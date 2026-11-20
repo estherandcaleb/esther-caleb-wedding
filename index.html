@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b2b"><meta name="description" content="Esther & Caleb invite you to celebrate their wedding on 27 February 2027 at Bethany Camping Site, Mukono.">
+  <title>Esther & Caleb | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="intro" id="intro" aria-label="Open wedding invitation">
+    <div class="intro-stars" aria-hidden="true">✦　·　✧　·　✦</div>
+    <p class="eyebrow">A celebration of love</p>
+    <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open invitation">
+      <div class="envelope-back"></div><div class="letter"><span class="letter-script">Esther & Caleb</span><span class="letter-small">27 · 02 · 2027</span></div>
+      <div class="envelope-flap"></div><div class="envelope-front"></div><div class="seal">E<span>&</span>C</div>
+    </div>
+    <h1>You're invited</h1><p class="intro-hint">Tap the envelope to open</p>
+    <button class="open-button" id="openButton">OPEN INVITATION <span>↗</span></button>
+  </div>
+
+  <main class="site" id="site" aria-hidden="true">
+    <nav class="nav"><a class="brand" href="#top">E <span>&</span> C</a><button class="music" id="musicButton" aria-label="Toggle music">♫ <span>Music off</span></button></nav>
+    <section class="hero" id="top">
+      <div class="hero-copy"><p class="eyebrow">Together with our families</p><h1><span>Esther</span><i>&</i><span>Caleb</span></h1><p class="hero-line">Joyfully invite you to celebrate<br>their wedding</p><div class="date-pill">SATURDAY <b>27</b> FEBRUARY <b>2027</b></div><a class="gold-button" href="#details">Discover the celebration <span>↓</span></a></div>
+      <div class="hero-photo-wrap"><img src="assets/couple.jpg" alt="Esther and Caleb smiling together" class="hero-photo"><div class="photo-caption">A journey to forever</div></div>
+      <div class="hero-ornament" aria-hidden="true">❧</div>
+    </section>
+    <section class="story"><div class="section-mark">01 — THE INVITATION</div><p class="script">A beautiful beginning</p><h2>Two hearts.<br><em>One promise.</em></h2><p class="story-text">With grateful hearts and joy beyond words, we invite you to witness and celebrate the beginning of our forever.</p><div class="divider"><span>✦</span></div><p class="script">Come celebrate the journey to forever with us.</p></section>
+    <section class="details" id="details"><div class="section-mark">02 — THE DAY</div><h2>The celebration</h2><div class="detail-grid"><article class="detail-card"><div class="detail-icon">✧</div><p class="eyebrow">WHEN</p><h3>Saturday</h3><p>27 February 2027</p><p class="detail-note">The day our forever begins</p></article><article class="detail-card"><div class="detail-icon">⌖</div><p class="eyebrow">WHERE</p><h3>Bethany Camping Site</h3><p>Mukono, Uganda</p><p class="detail-note">A place close to our hearts</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Bethany+Camping+Site+Mukono+Uganda" target="_blank" rel="noopener">Open directions ↗</a></article></div><div class="timeline"><div><span class="time">TIME</span><span class="timeline-text">Details coming soon</span></div><div><span class="time">DRESS</span><span class="timeline-text">Celebration attire</span></div></div></section>
+    <section class="countdown-section"><p class="eyebrow">Counting down to forever</p><div class="countdown" id="countdown"><div><b id="days">—</b><span>days</span></div><div><b id="hours">—</b><span>hours</span></div><div><b id="minutes">—</b><span>minutes</span></div><div><b id="seconds">—</b><span>seconds</span></div></div></section>
+    <section class="rsvp" id="rsvp"><div class="section-mark">03 — RSVP</div><p class="script">It wouldn't be the same without you</p><h2>Will you join us?</h2><p class="story-text">Please let us know if you'll be celebrating with us. We can't wait to share this day with you.</p><a class="gold-button" id="rsvpLink" href="#">RSVP <span>↗</span></a><p class="rsvp-note" id="rsvpNote">RSVP link will be added here.</p></section>
+    <footer><div class="footer-monogram">E <span>&</span> C</div><p>Esther & Caleb</p><p class="script">Come celebrate the journey to forever with us.</p><small>MADE WITH LOVE · 27 FEBRUARY 2027</small></footer>
+  </main>
+  <audio id="bgMusic" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
