@@ -1,11 +1,8 @@
-# Esther & Caleb Wedding Invitation
+Esther & Caleb wedding invitation v5
 
-A two-screen, mobile-first digital wedding invitation. Screen 1 is an animated cover; screen 2 contains the invitation, photos, date, venue, countdown, directions, RSVP placeholder, and closing message.
+Two-screen mobile-friendly invitation. All images are local in assets/.
 
-## Publish with GitHub Pages
-1. Download and unzip this folder.
-2. In your GitHub repository, upload the contents of this folder (index.html, styles.css, script.js, and assets) to the root.
-3. Commit changes to the `main` branch.
-4. Ensure Settings → Pages → Deploy from a branch → `main` / `(root)`.
+Upload index.html, styles.css, script.js and the assets folder to the root of the GitHub Pages repository, replacing existing files.
 
-RSVP button is currently a placeholder; connect it to a Google Form or other RSVP service when ready.
+RSVP currently opens a local form and prepares the response text; it does not store submissions online. Connect a Google Form or other free form endpoint for real RSVP collection.
+No music track is included; add an audio file and playback controls after choosing a track.
